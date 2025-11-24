@@ -79,6 +79,9 @@ python flux_cleanup.py
 ```
 Note: You may need to adjust the hyperparameters (mainly timesteps) to achieve better visual results, as the optimal values often vary depending on the input images.
 
+## Adapter Training
+We provide a lightweight script to fine-tune only the control adapter for improved lighting detection. Refer to [`docs/adapter_training.md`](docs/adapter_training.md) for dataset manifest format, RGB-folder-only training, required checkpoints, and end-to-end commands.
+
 
 
 ## Contact and Citation
